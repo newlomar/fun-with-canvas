@@ -5,6 +5,7 @@ html, body {
 }
 
 h1 {
-  text-align: center;
+  top: 1%;
+  left: 45%;
   position: absolute;
 }
