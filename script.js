@@ -1,6 +1,10 @@
 const canvas = document.querySelector("[data-js='draw']");
 const ctx = canvas.getContext('2d');
 
+window.addEventListener('click', () => {
+  const h1 = document.querySelector('h1');
+  h1.style.display = 'none';
+})
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
