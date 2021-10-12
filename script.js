@@ -43,7 +43,7 @@ function draw(event) {
     ctx.lineWidth++;
   }
   else {
-    ctx.lineWidth--;
+    ctx.lineWidth-- ;
   }
   
 }
